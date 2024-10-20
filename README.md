@@ -1,6 +1,6 @@
-# NikeStore
+# LMS
 
-**NikeStore** is a Window Form inventory management system developed in C# with MS SQL database integration . It provides a centralized platform for managing inventory, sales, and customer relations aimed at enhancing efficiency for both admin and customer users. This system follows Object-Oriented Programming (OOP) principles, including association, encapsulation, inheritance, and polymorphism. It is built using a 3-tier architecture consisting of BL, DL, UI.
+**LMS** is a Windows Forms Application developed in C# with SQL database integration. It streamlines the management of student evaluations for a course lab, allowing teachers to efficiently handle various academic components related to Outcome-Based Education (OBE).
 
 ## Table of Contents
 - [Features](#features)
@@ -12,23 +12,20 @@
 - [License](#license)
 
 ## Features
-- **3 tier model**: Business layer, Data layer and User Interface
-- **Modular Design DLL Framework**: Backend business logic and data handling separated into a DLL framework, making it reusable and flexible for future UI developments.
-- **User Authentication**: Distinct logins for admin, and customers.
-- **Inventory Management**: Efficiently track, update, and manage product stock levels in real-time.
-- **Sales Tracking**: View and analyze sales data .
-- **Responsive Design**: A clean and modern interface that works well on various devices.
+- **Manage Students**: Add, edit, and delete student records.
+- **Manage Course Learning Outcomes (CLOs)**: Organize and maintain CLOs associated with courses.
+- **Manage Rubrics**: Create and modify rubrics to define assessment criteria.
+- **Manage Assessments**: Create and manage assessments linked to CLOs and rubrics.
+- **Manage Rubric Levels**: Define performance levels within the rubric for nuanced evaluations.
+- **Mark Evaluations**: Record evaluations for students based on their assessment performance.
+- **Reporting**: Generate crystal PDF reports, including CLO-wise and assessment-wise class results.
 
 ## Screenshots
 <img src="assets/1.png" alt="Screenshot" width="75%">
-<img src="assets/2.png" alt="Screenshot" width="75%">
-<img src="assets/3.png" alt="Screenshot" width="75%">
-<img src="assets/4.png" alt="Screenshot" width="75%">
-<img src="assets/5.png" alt="Screenshot" width="75%">
 
 ## Usage
 1. Clone the repository:
-   `git clone https://github.com/miansaadtahir/NikeStore.git`
+   `git clone https://github.com/miansaadtahir/LabManagementSystem.git`
 2. Navigate to:
    `cd NikeStore/ script/`
 3. Run the `nikeScript.sql` in SSMS
@@ -41,11 +38,12 @@ For a detailed overview of the project and its features, visit the [Documentatio
 
 ## Technologies Used
 - C#
-- MS SQL Server
+- Windows Forms
+- MSSQL Database
 
 ## Contributing
 Contributions, issues, and feature requests are welcome!  
-Feel free to check out the [issues page](https://github.com/miansaadtahir/NikeStore/issues) for more information.
+Feel free to check out the [issues page](https://github.com/miansaadtahir/LabManagementSystem/issues) for more information.
 
 ## License
 Distributed under the MIT License. See [LICENSE](./LICENSE) for more details.
