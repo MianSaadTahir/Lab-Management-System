@@ -27,11 +27,11 @@
 1. Clone the repository:
    `git clone https://github.com/miansaadtahir/LabManagementSystem.git`
 2. Navigate to:
-   `cd NikeStore/ script/`
-3. Run the `nikeScript.sql` in SSMS
+   `cd LabManagementSystem/script`
+3. Run the `ProjectBScripts.sql` in SSMS
 4. Navigate to the project directory:
-   `cd NikeStore/ NikeWinForm/ bin/ debug`
-5. Launch the `NikeWinForm.exe` file.
+   `cd LabManagementSystem/ProjectB/bin/Debug`
+5. Launch the `ProjectB.exe` file.
 
 ## Documentation
 For a detailed overview of the project and its features, visit the [Documentation](./documentation/) in the repository.
