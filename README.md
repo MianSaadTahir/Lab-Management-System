@@ -9,7 +9,6 @@
 - [Documentation](#documentation)
 - [Technologies Used](#technologies-used)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 - **Manage Students**: Add, edit, and delete student records.
